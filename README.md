@@ -26,6 +26,15 @@ A responsive React frontend prototype for a travel agency startup. It uses React
 - CSS Modules
 - Git and GitHub-ready project structure
 
+## Features
+
+- Responsive and mobile-friendly UI
+- Reusable React components
+- Client-side routing using React Router
+- Controlled contact form with validation
+- Modular styling with CSS Modules
+- Data-driven content using JavaScript 
+
 ## Folder Structure
 
 ```bash

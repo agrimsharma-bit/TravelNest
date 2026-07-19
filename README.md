@@ -2,6 +2,16 @@
 
 A responsive React frontend prototype for a travel agency startup. It uses React Router for navigation, a reusable component-based architecture, CSS Modules for consistent styling, and controlled forms with JavaScript-based validation.
 
+## Features
+
+- Responsive and mobile-friendly UI
+- Reusable React components
+- Client-side routing using React Router
+- Controlled contact form with validation
+- Modular styling with CSS Modules
+- Data-driven content using JavaScript
+
+
 ## Routes
 
 - `/` — Home landing page
@@ -15,15 +25,6 @@ A responsive React frontend prototype for a travel agency startup. It uses React
 - React Router DOM
 - CSS Modules
 - Git and GitHub-ready project structure
-
-## Features
-
-- Responsive and mobile-friendly UI
-- Reusable React components
-- Client-side routing using React Router
-- Controlled contact form with validation
-- Modular styling with CSS Modules
-- Data-driven content using JavaScript 
 
 ## Folder Structure
 

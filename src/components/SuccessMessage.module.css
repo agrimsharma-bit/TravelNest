@@ -1,0 +1,11 @@
+.message {
+  background: var(--color-surface);
+  border: 1px solid rgba(15, 118, 110, 0.18);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.message h2 {
+  margin-bottom: 0.75rem;
+}

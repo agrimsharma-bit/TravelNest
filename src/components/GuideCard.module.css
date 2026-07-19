@@ -1,0 +1,23 @@
+.card {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-soft);
+}
+
+.photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.content {
+  padding: 1.25rem;
+}
+
+.expertise {
+  color: var(--color-primary);
+  font-weight: 700;
+  margin: 0.5rem 0;
+}

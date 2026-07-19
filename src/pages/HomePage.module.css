@@ -1,0 +1,62 @@
+.page {
+  display: grid;
+  gap: 4rem;
+}
+
+.section,
+.benefitsSection {
+  padding: 1rem 0;
+}
+
+.sectionHeading,
+.benefitsSection {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.benefitsSection {
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+}
+
+.benefitList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.benefitList li {
+  background: var(--color-surface-alt);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+  border: 1px solid var(--color-border);
+}
+
+@media (max-width: 960px) {
+  .featureGrid,
+  .benefitsSection {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .featureGrid,
+  .benefitsSection {
+    grid-template-columns: 1fr;
+  }
+}

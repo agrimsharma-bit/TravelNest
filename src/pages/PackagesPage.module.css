@@ -1,0 +1,49 @@
+.page {
+  display: grid;
+  gap: 3rem;
+}
+
+.hero,
+.section {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  max-width: 14ch;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.sectionTitle {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.cardGrid,
+.planGrid,
+.testimonialList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
+
+.planCard,
+.testimonialCard {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+}
+
+.planPrice {
+  color: var(--color-primary);
+  font-weight: 700;
+  margin: 0.75rem 0;
+}

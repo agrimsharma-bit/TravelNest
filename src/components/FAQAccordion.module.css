@@ -1,0 +1,26 @@
+.wrapper {
+  display: grid;
+  gap: 1rem;
+}
+
+.item {
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  overflow: hidden;
+}
+
+.trigger {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.2rem 1.25rem;
+  background: transparent;
+  font-weight: 700;
+}
+
+.answer {
+  padding: 0 1.25rem 1.2rem;
+}

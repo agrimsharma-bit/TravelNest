@@ -1,0 +1,68 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 0 1rem;
+}
+
+.content h1 {
+  font-size: clamp(2.7rem, 6vw, 4.7rem);
+  line-height: 1.05;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  max-width: 60ch;
+}
+
+.kicker {
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.ctaButton {
+  display: inline-flex;
+  margin-top: 1.5rem;
+  padding: 0.95rem 1.4rem;
+  border-radius: 999px;
+  background: var(--color-primary);
+  color: white;
+  font-weight: 700;
+  box-shadow: var(--shadow-soft);
+}
+
+.visualCard {
+  min-height: 360px;
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(rgba(15, 118, 110, 0.18), rgba(15, 118, 110, 0.18)),
+    url('https://picsum.photos/seed/travel-hero/800/900') center/cover;
+  display: flex;
+  align-items: flex-end;
+  padding: 1.5rem;
+  color: white;
+  box-shadow: var(--shadow-soft);
+}
+
+.visualCard div {
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.24);
+  padding: 1rem;
+  border-radius: var(--radius-md);
+}
+
+.visualCard span,
+.visualCard strong {
+  display: block;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+}
